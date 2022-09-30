@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="author" content="Aturado">
+  <meta name="description" content="Responsive Sign-up or Registration Form Template in HTML and CSS | Coding Lab">
+  <title> Sign-up or Registration Form | Coding Lab </title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <main>
+    <div class="wrappers">
+      <h2>Registration</h2>
+      <form action="#">
+        <div class="input-box">
+          <label for="name" hidden>Name</label>
+          <input type="text" name="name" id="name" required placeholder="Enter your name">
+        </div>
+        <div class="input-box">
+          <label for="email" hidden>Email</label>
+          <input type="email" name="email" id="email" required placeholder="Enter your email">
+        </div>
+        <div class="input-box">
+          <label for="password" hidden>Password</label>
+          <input type="password" name="password" id="password" required placeholder="Create password">
+        </div>
+        <div class="input-box">
+          <label for="confirmPassword" hidden>Confirm Password</label>
+          <input type="password" name="confirmPassword" id="confirmPassword" required placeholder="Confirm password">
+        </div>
+        <div class="policy">
+          <label for="checkbox" hidden>Terms & Conditions</label>
+          <input type="checkbox" name="checkbox" id="checkbox" required>
+          <h3>I accept all <a href="#">Terms & Conditions.</a></h3>
+        </div>
+        <div class="input-box button">
+          <label for="submitButton" hidden>Submit</label>
+          <input type="submit" name="submitButton" id="submitButton" value="Register Now">
+        </div>
+        <div class="login">
+          <h3>Already have an account? <a href="#">Login now</a></h3>
+        </div>
+      </form>
+    </div>
+  </main>
+
+</body>
+
+</html>
